@@ -1,0 +1,16 @@
+Bejelentkezés felület tesztelése:
+A tesztelést végezte: Farkas Tamás
+* Ha bármelyik adatmezõt kitöltetlen állapotban hagyjuk a „Bejelentkezés” gombra kattintva az oldal hiba üzentet ad vissza. 
+* A hibaüzeneten belül az „OK” gomb mûködik. 
+* Ha csak a felhasználónevet adom meg akkor is megkapom a hibaüzenetet. 
+* Ha csak a jelszót adom meg akkor is megkapom a hibaüzenetet.
+* Ha minden adatot megadunk és a „Bejelentkezés” gombra kattintok, akkor sikeres bejelentkezés esetén a rendszer értesít minket arról és megadja a felhasználó alapadatait is. Sikeres bejelentkezést úgy értünk el, ha minden adatot megadunk és az egyezik a korábbi regisztráció során megadott adatokkal. 
+* Ha olyan adatot adok meg amit még regisztráció során nem adtak meg, nem történik meg bejelentkezés. 
+* Sikertelen bejelentkezés esetén is kapunk visszajelzést.
+* A Bejelentkezés felületén a „Kilépés” gomb is mûködik, a felület bezárul, ha megnyomjuk azt. 
+
+Irányítópult tesztelése:
+Tesztelést végezte: Farkas Tamás
+Az irányítópult a Regisztrációs felületre vezet.
+Már regisztrált adatot adtam meg és a rendszer tájékoztat a korábbi regisztrálásról.
+
