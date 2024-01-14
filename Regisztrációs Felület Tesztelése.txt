@@ -1,0 +1,23 @@
+
+
+Regisztráció oldal tesztelése:
+Tesztelést végezte: Gali Glória-BWLLM0
+Ha a mezõket üresen hagyjuk és a „Regisztrációs” gombra kattintunk, megkapjuk a hibaüzenetet. A hibaüzenet részletes tájékoztatást nyújt arról, hogy minden adatot meg kell adni: 
+Csak a nevet adtam meg, megkaptam a hibaüzenetet. 
+Csak az e-mail címet adtam meg, megkaptam a hibaüzenetet. 
+Csak a telefonszámot adtam meg, megkaptam a hibaüzenetet. 
+Csak a lakcímet adtam meg, megkaptam a hibaüzenetet. 
+Csak a jelszót adtam meg, megkaptam a hibaüzenetet. 
+Csak a megerõsítõ jelszót adtam meg, megkaptam a hibaüzenetet. 
+Ezt megpróbáltam úgy is, hogy egyetlen adatot hagytam ki:
+Kihagytam a nevet, megkaptam a hibaüzenetet. 
+Kihagytam az e-mail címet megkaptam a hibaüzenetet. 
+Kihagytam a telefonszámot, megkaptam a hibaüzenetet. 
+Kihagytam a lakcímet, megkaptam a hibaüzenetet. 
+Kihagytam a jelszót, megkaptam a hibaüzenetet. 
+Kihagytam a megerõsítõ jelszót, megkaptam a hibaüzenetet. 
+
+A hibaüzeneten belül az „OK” gomb is mûködik, ha rákattintunk a rendszer kilép abból. 
+A felület bezárul, ha a „Kilépés” gombra kattintunk. 
+A jelszót kétszer adjuk meg és ha nem egyeznek, akkor hibaüzenetet kapunk. 
+Visszajelzést kapunk a sikeres vagy sikertelen regisztrációról. Sikeres bejelentkezést úgy értünk el, ha minden adatot megadunk.
