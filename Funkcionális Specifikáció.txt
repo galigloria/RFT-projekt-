@@ -1,0 +1,44 @@
+Funkcionális Specifikáció
+
+Bevezetés:
+Ez a dokumentum az általunk létrehozott Bejelentkezés és Regisztrációs felület funkcionális specifikációját tartalmazza.
+Az alkalmazás funkciói: 
+* Az alkalmazásnak a különféle felhasználó számára is érthetõnek, jól átláthatónak kell lennie. 
+* Lehetõvé kell tennie azt, hogy a rendszert használók az egyszerûségbõl adódóan szívesen regisztráljanak a felületre.
+* Lehetõvé kell tenni a gyors Bejelentkezést, esetleg Regisztrációt. 
+* Lennie kell benne átláthatóságnak. 
+* Segítse a felhasználókat átirányítani a számukra megfelelõ felületre. 
+* A felületnek esztétikusnak kell lennie. 
+* Ahhoz, hogy a felhasználó könnyebben tudja megtanulni kezelni a felületet, hasonló funkciók (mint például a Bejelentkezés és a Regisztráció gomb) ugyanott helyezkedjenek el és könnyen észrevehetõek legyenek.  
+ 
+Bejelentkezés Felületeinek Funkciói: 
+
+Tartalmazzon üres szöveges mezõt a felhasználónévnek és a jelszónak is egyaránt. 
+Bejelentkezés gombra kattintva kapjunk visszajelzést a sikeres, illetve sikertelen bejelentkezésrõl. 
+A Hiba üzenet legyen rövid és lényegre törõ külön álló egység, amelybõl ki lehet lépni. 
+A Bejelentkezés felületébõl is legyen a Kilépés lehetõségére egy gomb szolgáltatva. 
+A gombok legyenek a felhasználók számára világosak.
+
+Regisztráció felület Funkciói: 
+
+A felhasználó adatait be szeretnénk kérni, ezek a következõ adatok:
+* Név:
+* E-mail:
+* Telefonszám:
+* Lakcím: 
+* Jelszó: 
+* Jelszó megerõsítése
+Ezekhez az adatokhoz szeretnék üres szöveges mezõt, ahová a felhasználó be tudja írni az adatait.
+A rendszer biztosítsa azt, hogy a regisztráció csak akkor legyen sikeres, ha minden adatot megadtunk és még a jelszavak is megegyeznek. 
+Sikeres és sikertelen regisztráció esetén is szeretnénk visszajelzést. 
+Sikertelen visszajelzés esetén, az információ ablaka legyen egy rövid, lényegre törõ üzenet, amihez biztosítsunk gomb segítségével kilépési lehetõséget. 
+Lehetõség szerint a regisztrációs felületbõl is szeretnénk kilépni. 
+
+Irányítópult 
+
+Gomb segítségével irányítson át a Regisztráció felületére és ha a regisztráláskor megadott adatok már léteznek az adatbázisrendszerben tájékoztassa errõl a felhasználót. 
+
+
+
+
+
