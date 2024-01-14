@@ -75,8 +75,24 @@ public class BejelentkezesForm extends JDialog{
             return user;
 
         }
+    public static void main(String[] args) {
+        BejelentkezesForm bejelentkezesForm= new BejelentkezesForm(null);
+        Felhasznalo user=bejelentkezesForm.user;
+        if(user!=null){
+            System.out.println("Ön sikeresen bejelentkezett,"+user.nev +"!");
+            System.out.println("Az Ön alapadatai:");
+            System.out.println("               E-mail:"+user.email);
+            System.out.println("               Telefonszám:"+user.telefonszam);
+            System.out.println("               Lakcím:"+user.lakcim);
+
+
+        }
+        else {
+            System.out.println("Sikertelen bejelentkezés!");
+        }
 
     }
+
 }
 
 
