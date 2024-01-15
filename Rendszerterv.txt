@@ -1,0 +1,35 @@
+
+Rendszerterv
+
+A rendszer célja:A célunk egy egyszerû és gyors felhasználói felület létrehozása, amely Bejelentkezést és Regisztrációt biztosít egyes rendszerekbe. 
+Projektterv: A projektet két programozó készíti el, akik komponensekre bontják a rendszert és mindenki a saját komponensét fejleszti. Három felületet szeretnénk létrehozni. Ez a Bejelentkezés felület, a Regisztráció felület és az Irányítópult felülete. Minden felületet egyenként szeretnénk átadni és ez által átvételi teszt alá vetni. Ezt a három felületet tekintjük a projekt mérföldköveinek. A projekt elkészítésére 4 hónapot szántunk. 
+Üzleti folyamatok modellje: Az üzleti szereplõk a felhasználók, akik a rendszert használják. Az rendszer hétköznapi emberek számára lesz fejlesztve. Ez a kijelentés egyszerûnek tûnik, de az a célunk, hogy bárki és bármilyen korosztály megértse a rendszer mûködését, ezért törekszünk az egyszerûségre és a lényegre törõ információkra. 
+Üzleti folyamat maga, a rendszeren végrehajtott mûveletek. A rendszert a megrendelõ arra használja fel, hogy statisztikai adatokat mérjen fel arról, hogy mennyire veszik az üzleti szereplõk használatba azt a rendszert, ami erre a felületre épül, tehát a Bejelentkezés és a Regisztrációs felülettel mérik meg pl.: hogy hány regisztrált felhasználóval rendelkezik a megrendelõ és az utóbbi idõben hányan regisztráltak a rendszerbe.
+Az Iránytópult a felhasználó számára nyújt egyszerû továbbjutást a két felület között.
+Követelmények: A felületek legyenek bárki számára érthetõek, rugalmasak, letisztultak és gyorsak. Minden gomb és megjelenített adat érthetõ legyen rajta. 
+Funkcionális terv: A rendszer rendelkezik üres kitöltendõ mezõkkel, amelyekbe a felhasználó a saját adatait rögzíti. Ezek ellenõrizzük pl.: jelszó megegyezés, vagy valóban megadott minden adatot, vagy az adatokkal még nem regisztrált a felhasználó így nem tud bejelentkezni vagy az adatokkal már regisztrált a felhasználó, így nem tud regisztrálni újból. Tartalmaznak különbözõ gombokat, amelyek a navigálást és a tájékoztatást teszik lehetõvé. 
+Fizika Környezet:
+* Felhasználói felület: A rendszer azon része, ami a felhasználók számára érhetõ el. Ezt IntelliJ IDEA és azon belül is Swing GUI Desinger segítségével készítjük el. 
+* Backend: A banck-end fejlesztéséhez Java programozásnyelvet szeretnénk használni, ezért a rendszer ezen részét is IntelliJ-ben szeretnénk megírni. Itt a különbözõ ablakokhoz, osztályokat hozunk létre, amelyekben az ablakon megjelent funkciókhoz, azaz gombokhoz és adattal kitöltendõ részekhez különbözõ metódusokat rendelünk. 
+* Adatbázis: A regisztrációs adatokat szeretnénk adatbázisrendszerben is eltárolni. Ehhez phpMyAdmin segítségével létrehozunk egy táblát, amiben a késõbbiekben az adatokat tároljuk. Az adatok alapján a Bejelentkezés oldalán tudjuk majd ellenõrizni, hogy azokkal már történt-e regisztráció. A phpMyAdmin-hoz való csatlakozás XAMPP webszerver segítségével történik meg. Ahhoz, hogy a java alkalmazásunk a késõbbiekben hozzáférjen az adatbázisunkhoz telepítünk egy MySQL Connector-t is, amelyet közvetlenül az IntelliJ projektünkben helyezünk majd el. 
+Architektúrális terv: A rendszer legyen gyors és nagy mennyiségû felhasználói adatok rögzítésére alkalmas.
+Adatbázis terv: Egyetlen táblát használunk, amelyben felhasználó adatokat rögzítünk.  
+Tesztelések 
+* Unit tesztelés: A rendszer részeinek teszteléséhez.
+* Egységteszt: A rendszer kisebb egységeinek teszteléséhez.
+* Teljesítményteszt: Az alkalmazás teljesítményének teszteléséhez.
+* Átvételi teszt: Minden elkészült felületet át szeretnénk adni a felhasználónak, amelyet õ le is tesztel és kifejti a felületrõl a véleményét. 
++ Páros programozást alkalmazunk: nyomon követjük azt, hogy a saját feladatát hogyan készíti el a másik. Próbáljuk megérteni annak mûködését és segítünk a hiba feltárásában. 
+Karbantartás: 
+A rendszer ellátása újabb funkciókkal és a régebbi funkciók folyamatos fejlesztése. 
+Hiba esetén garancia vállalás.
+Biztonság
+Az adatbázisban tárolt felhasználói adatokhoz csak egy ember férhet hozzá és kezelheti azt.  Magára az egész adatbázis kezelésére egy embert bízunk meg. 
+Dokumentáció 
+A felhasználó folyamatos információt kap arról, ha valamilyen hibát vétett a rendszerbe való bejelentkezés vagy regisztráció során. 
+Értelmes és átlátható hiba üzenetekkel látja el a rendszer a felhasználót. 
+Értelmezhetõ felhasználói felülettel látja el a felhasználót. 
+Ajánlást kap az újra próbálkozás lépéseirõl. 
+
+
+
