@@ -101,5 +101,7 @@ public class IranyitoPultForm  extends JFrame{
         }
         return regisztraltFelhasznalo;
     }
-
+    public static void main(String[] args) {
+        IranyitoPultForm iranyitoPultForm=new IranyitoPultForm();
+    }
 }
