@@ -5,5 +5,5 @@ A projekthez tartozó adatbázist phpMyAdmin segítségével készítetjük el, 
 Végeredeményként egy olyan felületet szeretnénk létrehozni, amely a felhasználó számára egyszerű és könnyen megérthető. 
 
 A projektetet készítette: 
-Gali Glória 
+Gali Glória és 
 Farkas Tamás 
