@@ -55,3 +55,27 @@ bt_kilepes.addActionListener(new ActionListener() {
         setVisible(true);
 
     }
+private void registerUser() {
+        //A "fieldek" beolvasása
+        String nev= tf_nev.getText();
+        String email=tf_email.getText();
+        String telefonszam= tf_telefonszam.getText();
+        String lakcim = tf_lakcim.getText();
+        String jelszo= String.valueOf(pf_jelszo.getPassword());
+        String megerositoJelszo= String.valueOf(pf_megerositoJelszo.getPassword());
+        //Hiba üzenet lekezelése
+        if(nev.isEmpty() || email.isEmpty() || telefonszam.isEmpty() || lakcim.isEmpty() || jelszo.isEmpty())
+        {
+            JOptionPane.showMessageDialog(this,
+                    "Kérem,adja meg az összes adatait!",
+                    "Kérem, próbálja meg újra!",
+                    JOptionPane.ERROR_MESSAGE);
+            return;
+        }
+        if(!jelszo.equals(megerositoJelszo)){
+            JOptionPane.showMessageDialog(this,
+                    "A jelszavak nem egyeznek!",
+                    "Kérem, próbálja meg újra!",
+                    JOptionPane.ERROR_MESSAGE);
+            return;
+        }
