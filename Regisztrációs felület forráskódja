@@ -11,3 +11,12 @@ public class RegisztracioForm extends JDialog{
     private JTextField tf_lakcim;
     private JPasswordField pf_jelszo;
     private JPasswordField pf_megerositoJelszo;
+    private JButton bt_regisztracio;
+    private JButton bt_kilepes;
+    private JLabel lbl_nev;
+    private JLabel lbl_email;
+    private JLabel lbl_telefonszam;
+    private JLabel lbl_lakcim;
+    private JLabel lbl_jelszo;
+    private JLabel lbl_megerositoJelszo;
+    private JPanel RegisztracioPanel;
