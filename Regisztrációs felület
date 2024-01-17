@@ -41,3 +41,7 @@
           </grid>
         </constraints>
         <properties>
+ <background color="-9543"/>
+          <font name="Arial monospaced for SAP" size="15" style="2"/>
+          <foreground color="-16316665"/>
+          <horizontalAlignment value="0"/>
