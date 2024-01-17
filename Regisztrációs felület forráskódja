@@ -20,3 +20,25 @@ public class RegisztracioForm extends JDialog{
     private JLabel lbl_jelszo;
     private JLabel lbl_megerositoJelszo;
     private JPanel RegisztracioPanel;
+ public RegisztracioForm(JFrame parent)
+    {
+        super(parent);
+        setTitle("Új fiók létrehozása");
+        setContentPane(RegisztracioPanel);
+        setMinimumSize(new Dimension(700,600));
+        setModal(true);
+        setLocationRelativeTo(parent);
+        setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+
+
+        bt_regisztracio.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+
+                registerUser();
+
+
+
+            }
+        });
