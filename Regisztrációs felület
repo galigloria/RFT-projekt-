@@ -82,3 +82,43 @@
         <properties>
           <font name="Arial monospaced for SAP" size="20" style="1"/>
           <foreground color="-9543"/>
+<component id="94414" class="javax.swing.JPasswordField" binding="pf_jelszo">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9543"/>
+          <font name="Arial monospaced for SAP" size="15" style="2"/>
+          <foreground color="-16316665"/>
+          <horizontalAlignment value="0"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="94957" class="javax.swing.JLabel" binding="lbl_megerositoJelszo">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial monospaced for SAP" size="20" style="1"/>
+          <foreground color="-9543"/>
+          <text value="Jelszó megerősítése:"/>
+        </properties>
+      </component>
+      <component id="cc008" class="javax.swing.JPasswordField" binding="pf_megerositoJelszo">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9543"/>
+          <font name="Arial monospaced for SAP" size="15" style="2"/>
+          <foreground color="-16316665"/>
+          <horizontalAlignment value="0"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="95ea5" class="javax.swing.JLabel" binding="lbl_email">
+        <constraints>
