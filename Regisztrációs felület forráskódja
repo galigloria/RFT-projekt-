@@ -42,3 +42,16 @@ public class RegisztracioForm extends JDialog{
 
             }
         });
+bt_kilepes.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+
+                dispose();
+
+
+            }
+        });
+        setVisible(true);
+
+    }
