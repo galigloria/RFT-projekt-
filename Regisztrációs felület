@@ -122,3 +122,36 @@
       </component>
       <component id="95ea5" class="javax.swing.JLabel" binding="lbl_email">
         <constraints>
+ <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial monospaced for SAP" size="20" style="1"/>
+          <foreground color="-9543"/>
+          <text value="E-mail:"/>
+        </properties>
+      </component>
+      <component id="f77d2" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial monospaced for SAP" size="30" style="1"/>
+          <foreground color="-9543"/>
+          <text value="Regisztráció "/>
+        </properties>
+      </component>
+      <component id="f3299" class="javax.swing.JLabel" binding="lbl_nev">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial monospaced for SAP" size="20" style="1"/>
+          <foreground color="-9543"/>
+          <text value="Név: "/>
+        </properties>
+      </component>
+      <component id="6aca1" class="javax.swing.JTextField" binding="tf_nev">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
