@@ -79,3 +79,15 @@ private void registerUser() {
                     JOptionPane.ERROR_MESSAGE);
             return;
         }
+user= addUserToDatabase(nev,email,telefonszam,lakcim,jelszo);
+        if(user != null)
+        {
+            dispose();
+        }
+        else{
+            JOptionPane.showMessageDialog(this,
+                    "Hiba, a felhasználó regisztrálása közben!",
+                            "Kérem, próbálja meg újra!",
+                    JOptionPane.ERROR_MESSAGE);
+        }
+    }
