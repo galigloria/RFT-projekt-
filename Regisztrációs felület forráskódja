@@ -91,3 +91,44 @@ user= addUserToDatabase(nev,email,telefonszam,lakcim,jelszo);
                     JOptionPane.ERROR_MESSAGE);
         }
     }
+ public Felhasznalo user;
+
+    private Felhasznalo addUserToDatabase(String nev, String email, String telefonszam, String lakcim, String jelszo) {
+        Felhasznalo user=null;
+
+        final String DB_URL="jdbc:mysql://localhost/mystore?serverTimezone=UTC";
+        final String USERNAME="root";
+        final String PASSWORD="";
+
+
+            try {
+                Connection conn = DriverManager.getConnection(DB_URL,USERNAME,PASSWORD);
+
+                Statement statement=conn.createStatement();
+                String sql="INSERT INTO felhasznalo (nev,email,telefonszam,lakcim,jelszo) VALUES (?,?,?,?,?)";
+                PreparedStatement preparedStatement=conn.prepareStatement(sql);
+                preparedStatement.setString(1,nev);
+                preparedStatement.setString(2,email);
+                preparedStatement.setString(3,telefonszam);
+                preparedStatement.setString(4,lakcim);
+                preparedStatement.setString(5,jelszo);
+
+                int addRows=preparedStatement.executeUpdate();
+                if(addRows>0){
+                    user=new Felhasznalo();
+                    user.nev=nev;
+                    user.email=email;
+                    user.telefonszam=telefonszam;
+                    user.lakcim=lakcim;
+                    user.jelszo=jelszo;
+                }
+
+                statement.close();
+                conn.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+
+
+        return user;
+    }
