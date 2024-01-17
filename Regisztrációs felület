@@ -179,3 +179,32 @@
         <constraints>
           <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
+ <properties>
+          <background color="-9543"/>
+          <enabled value="true"/>
+          <font name="Arial monospaced for SAP" size="15" style="1"/>
+          <foreground color="-16316665"/>
+          <hideActionText value="false"/>
+          <text value="Regisztráció"/>
+        </properties>
+      </component>
+      <component id="5d9dc" class="javax.swing.JButton" binding="bt_kilepes">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9543"/>
+          <enabled value="true"/>
+          <font name="Arial monospaced for SAP" size="15" style="1"/>
+          <foreground color="-16316665"/>
+          <text value="Kilépés"/>
+        </properties>
+      </component>
+      <vspacer id="97cf">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
