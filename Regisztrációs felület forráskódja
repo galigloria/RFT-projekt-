@@ -1,0 +1,13 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.sql.*;
+
+public class RegisztracioForm extends JDialog{
+    private JTextField tf_nev;
+    private JTextField tf_email;
+    private JTextField tf_telefonszam;
+    private JTextField tf_lakcim;
+    private JPasswordField pf_jelszo;
+    private JPasswordField pf_megerositoJelszo;
