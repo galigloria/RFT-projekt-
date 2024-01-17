@@ -132,3 +132,20 @@ user= addUserToDatabase(nev,email,telefonszam,lakcim,jelszo);
 
         return user;
     }
+ public static void main(String[] args) {
+        RegisztracioForm myform =new RegisztracioForm(null);
+        Felhasznalo user=myform.user;
+
+        if(user != null)
+        {
+            System.out.println("Ön sikeresen regisztrált,"+user.nev+"!");
+        }
+        else
+        {
+            System.out.println("Az Ön regisztrációja sikertelen!");
+        }
+    }
+
+
+
+}
